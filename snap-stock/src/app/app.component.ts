@@ -15,9 +15,9 @@ export class AppComponent implements OnDestroy {
   title = 'angular-nodejs';
 
   userForm = new UntypedFormGroup({
-    firstName: new UntypedFormControl('', Validators.nullValidator && Validators.required),
-    lastName: new UntypedFormControl('', Validators.nullValidator && Validators.required),
-    foodInventory: new UntypedFormControl('', Validators.nullValidator && Validators.required)
+    // firstName: new UntypedFormControl('', Validators.nullValidator && Validators.required),
+    // lastName: new UntypedFormControl('', Validators.nullValidator && Validators.required),
+    // foodInventory: new UntypedFormControl('', Validators.nullValidator && Validators.required)
   });
 
   user: any;

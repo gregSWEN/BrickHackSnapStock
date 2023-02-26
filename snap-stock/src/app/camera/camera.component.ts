@@ -6,18 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./camera.component.css']
 })
 export class CameraComponent implements OnInit {
-
-  private receiptPhoto: File | undefined;
   constructor() { }
 
   ngOnInit(): void {
   }
-
-  handleCameraInput(event: any): void {
-    this.receiptPhoto = event;
-  }
-
-
-
 
 }
