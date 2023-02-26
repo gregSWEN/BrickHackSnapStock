@@ -2,13 +2,13 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const {TestFirebase} = require('./firebaselib')
-const {TestVeryfi} = require("./veryfiAPI");
+const {TestVeryfi, ParseResponse} = require("./veryfiAPI");
 const port = 8080;
 
 const app = express();
 
 TestFirebase()
-const response = TestVeryfi('../receipt.pdf')
+const response = TestVeryfi('../receipt2.pdf')
 
 app.use(bodyParser.json());
 
@@ -22,11 +22,11 @@ app.post('/api/user', (req, res) => {
 
 
 
-
 })
 
 app.get('/', (req,res) => {
-    console.log(response)
+    const jsonR = ParseResponse(response)
+    console.log(jsonR.line_items)
 });
 
 app.listen(port, () => {

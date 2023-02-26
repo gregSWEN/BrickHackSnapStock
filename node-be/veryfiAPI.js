@@ -12,4 +12,8 @@ function TestVeryfi(filePath) {
     return veryfi_client.process_document(filePath, categories = cat)
 }
 
-module.exports = {TestVeryfi}
+function ParseResponse(jsonResponse){
+    return JSON.parse(jsonResponse)
+}
+
+module.exports = {TestVeryfi, ParseResponse}
