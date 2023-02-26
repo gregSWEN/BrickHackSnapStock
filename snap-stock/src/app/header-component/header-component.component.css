@@ -1,7 +1,0 @@
-@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
-  /* CSS rules for iPhone 12 */
-  img {
-    max-width: 80px;
-    max-height: 844px;
-  }
-}
