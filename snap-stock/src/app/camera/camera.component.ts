@@ -13,9 +13,8 @@ export class CameraComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  handleCameraInput(cameraInput: FileList): void {
-    this.receiptPhoto = cameraInput[0];
-
+  handleCameraInput(event: any): void {
+    this.receiptPhoto = event;
   }
 
 
