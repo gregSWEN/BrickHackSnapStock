@@ -12,7 +12,7 @@ import { Subject } from 'rxjs';
 export class AppComponent implements OnDestroy {
   constructor(private appService: AppService) {}
 
-  title = 'angular-nodejs-example';
+  title = 'angular-nodejs';
 
   userForm = new FormGroup({
     firstName: new FormControl('', Validators.nullValidator && Validators.required),
