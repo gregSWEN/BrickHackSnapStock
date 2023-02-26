@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {AppComponent} from './app.component';
+
 import {IngredientListComponent} from './ingredient-list/ingredient-list.component';
 import {CameraComponent} from './camera/camera.component';
 

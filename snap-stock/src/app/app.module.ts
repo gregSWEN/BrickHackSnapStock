@@ -18,7 +18,7 @@ import { IngredientListComponent } from './ingredient-list/ingredient-list.compo
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

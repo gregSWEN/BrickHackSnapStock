@@ -8,12 +8,7 @@ import {Router} from '@angular/router';
 })
 export class AppComponent {
   title = 'snap-stock';
-  constructor(private router: Router) {
-  }
-
-  // tslint:disable-next-line:typedef
-  navigateToScanComponent() {
-    this.router.navigate(['/camera']);
+  constructor() {
   }
 
 }
