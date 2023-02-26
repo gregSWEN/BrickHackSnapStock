@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import {WebcamModule} from 'ngx-webcam';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CameraComponentComponent } from './camera-component/camera-component.component';
@@ -9,11 +9,11 @@ import { CameraComponentComponent } from './camera-component/camera-component.co
   declarations: [
     AppComponent,
     CameraComponentComponent,
+    CameraComponentComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    WebcamModule
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
