@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { FooterComponent } from './footer/footer.component';
 import { CameraComponent } from './camera/camera.component';
 import { ManualInputComponent } from './manual-input/manual-input.component';
+import { IngredientListComponent } from './ingredient-list/ingredient-list.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     FooterComponent,
     CameraComponent,
-    ManualInputComponent
+    ManualInputComponent,
+    IngredientListComponent
   ],
   imports: [
     BrowserModule,

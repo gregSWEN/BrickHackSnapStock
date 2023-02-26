@@ -1,19 +1,10 @@
 
-<app-header-component></app-header-component>
+<div>
+  <app-header></app-header>
 
-
-<div class="footer">
-  <app-footer-component></app-footer-component>
-</div>
-
-<div class="button-container">
-  <button (click)="navigateToScanComponent()">
-    <a routerLink="/camera">Scan</a>
-  </button>
-
-  <button>
-    Manually Input
-  </button>
+  <app-ingredient-list></app-ingredient-list>
+  <router-outlet></router-outlet>
+  <app-footer></app-footer>
 
 
 </div>
