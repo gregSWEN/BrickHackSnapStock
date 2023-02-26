@@ -1,1 +1,6 @@
-<p>ingredient-list works!</p>
+
+
+<app-ingredient-element
+  *ngFor="let ingredient of ingredientList"
+  [individualIngredient]="ingredient">
+</app-ingredient-element>
