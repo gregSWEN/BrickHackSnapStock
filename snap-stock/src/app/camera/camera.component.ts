@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CameraComponent implements OnInit {
 
+  private receiptPhoto: File | undefined;
   constructor() { }
 
   ngOnInit(): void {
   }
+
+  handleCameraInput(cameraInput: FileList): void {
+    this.receiptPhoto = cameraInput[0];
+
+  }
+
+
+
 
 }

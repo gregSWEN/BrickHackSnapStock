@@ -1,12 +1,11 @@
 
 @media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
   /* CSS rules for iPhone 12 */
-  .button-container{
-    display: flex;
-    flex-direction: column;
+
+  .sticky {
+    /*position: fixed;*/
+    width: 100%;
   }
-  button{
-    max-width: 75px;
-  }
+
 }
 

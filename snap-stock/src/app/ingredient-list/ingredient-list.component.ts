@@ -13,6 +13,15 @@ export class IngredientListComponent implements OnInit {
     new Ingredient('pear', 1, '01/29/2023'),
     new Ingredient('celery', 1, '01/29/2023'),
     new Ingredient('popsicle', 1, '01/29/2023'),
+    new Ingredient('popsicle', 1, '01/29/2023'),
+    new Ingredient('popsicle', 1, '01/29/2023'),
+    new Ingredient('popsicle', 1, '01/29/2023'),
+    new Ingredient('popsicle', 1, '01/29/2023'),
+    new Ingredient('popsicle', 1, '01/29/2023'),
+    new Ingredient('popsicle', 1, '01/29/2023'),
+    new Ingredient('popsicle', 1, '01/29/2023'),
+
+
   ];
   constructor() { }
 
