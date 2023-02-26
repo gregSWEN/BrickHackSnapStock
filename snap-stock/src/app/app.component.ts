@@ -1,5 +1,5 @@
 import { Component, OnDestroy } from '@angular/core';
-import { FormGroup, FormControl, Validators } from '@angular/forms';
+import { UntypedFormGroup, UntypedFormControl, Validators } from '@angular/forms';
 import { AppService } from './app.service';
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
@@ -14,10 +14,10 @@ export class AppComponent implements OnDestroy {
 
   title = 'angular-nodejs';
 
-  userForm = new FormGroup({
-    firstName: new FormControl('', Validators.nullValidator && Validators.required),
-    lastName: new FormControl('', Validators.nullValidator && Validators.required),
-    foodInventory: new FormControl('', Validators.nullValidator && Validators.required)
+  userForm = new UntypedFormGroup({
+    firstName: new UntypedFormControl('', Validators.nullValidator && Validators.required),
+    lastName: new UntypedFormControl('', Validators.nullValidator && Validators.required),
+    foodInventory: new UntypedFormControl('', Validators.nullValidator && Validators.required)
   });
 
   user: any;
