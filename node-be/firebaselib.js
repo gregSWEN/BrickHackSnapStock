@@ -19,7 +19,7 @@ function TestFirebase() {
     //db instance
     const database = fbDB.getDatabase(firebase);
 
-    writeUserData(database, "kevin", "orange", 50)
+    writeUserData(database, "greg", "apple", 90)
 
 }
 
